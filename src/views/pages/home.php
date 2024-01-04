@@ -18,8 +18,12 @@
         <td><?=$usuario['nome']?></td>
         <td><?=$usuario['email']?></td>
         <td>
-            <a href="<?=$base?>/usuario/<?=$usuario['id']?>/editar"> [editar] </a>
-            <a href="<?=$base?>/usuario/<?=$usuario['id']?>/excluir"> [excluir] </a>
+            <a href="<?=$base?>/usuario/<?=$usuario['id']?>/editar"> 
+                <img src="<?=$base?>/assets/images/document.png" alt="">
+         </a>
+            <a href="<?=$base?>/usuario/<?=$usuario['id']?>/excluir">
+                <img src="<?=$base?>/assets/images/trash.png" alt="">
+            </a>
         </td>
     </tr>
     <?php endforeach;?>
