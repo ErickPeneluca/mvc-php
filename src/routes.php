@@ -9,5 +9,6 @@ $router->get('/novo', 'UsuariosController@add');
 $router->post('/novo', 'UsuariosController@addAction');
 
 $router->get('/usuario/{id}/edit', 'UsuariosController@edit');
+$router->post('/usuario/{id}/edit', 'UsuariosController@editAction');
 
 $router->get('/usuario/{id}/excluir', 'UsuariosController@del');
